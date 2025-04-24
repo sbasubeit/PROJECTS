@@ -18,7 +18,7 @@ export interface SectorSummary {
 // Project data from the table
 export const projectsData: Project[] = [
   // القدرات البشرية - Human Capabilities
-  { id: 1, sector: "القدرات البشرية", name: "المجلس التخصصي لجمعيات الطفولة", agency: "مجلس الجمعيات الأهلية", signed: false },
+  { id: 1, sector: "القدرات البشرية", name: "المجلس التخصصي لجمعيات الطفولة", agency: "مجلس الجمعيات الأهلية", signed: true },
   { id: 2, sector: "القدرات البشرية", name: "تعليم المهارات الأساسية لأطفال التوحد", agency: "شركة تبيان للتعليم", signed: false },
   { id: 3, sector: "القدرات البشرية", name: "تعليم أسماء الله الحسنى للأطفال", agency: "مركزالحسنى", signed: false },
   { id: 4, sector: "القدرات البشرية", name: "تفسير الأطفال", agency: "مركز تفسير للدراسات", signed: false },
