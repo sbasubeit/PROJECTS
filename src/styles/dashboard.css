@@ -1,0 +1,31 @@
+
+/* RTL specific styles for Arabic */
+.rtl-dashboard {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl-dashboard .recharts-wrapper {
+  direction: ltr;
+}
+
+/* Override table direction */
+.rtl-dashboard table {
+  direction: rtl;
+}
+
+.rtl-dashboard th,
+.rtl-dashboard td {
+  text-align: right;
+}
+
+.rtl-dashboard th.text-center,
+.rtl-dashboard td.text-center {
+  text-align: center;
+}
+
+/* Style dropdowns for RTL */
+.rtl-dashboard select {
+  text-align: right;
+  padding-right: 1rem;
+}
