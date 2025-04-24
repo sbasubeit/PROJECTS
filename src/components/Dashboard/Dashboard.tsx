@@ -70,8 +70,10 @@ export function Dashboard() {
   return (
     <div className="container mx-auto py-6 space-y-8 rtl-dashboard" dir="rtl">
       <div className="flex flex-col">
-        <h1 className="text-3xl font-bold tracking-tight">لوحة اطلاق المشاريع 2025</h1>
-        <p className="text-muted-foreground">
+        <h1 className="page-title">
+          لوحة اطلاق المشاريع 2025
+        </h1>
+        <p className="text-muted-foreground text-center text-lg">
           عرض تفاعلي لحالة المشاريع وفقًا للمجال الذي تخدمه، مع توضيح حالة التعاقد
         </p>
       </div>
