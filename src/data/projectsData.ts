@@ -19,7 +19,7 @@ export interface SectorSummary {
 export const projectsData: Project[] = [
   // القدرات البشرية - Human Capabilities
   { id: 1, sector: "القدرات البشرية", name: "المجلس التخصصي لجمعيات الطفولة", agency: "مجلس الجمعيات الأهلية", signed: false },
-  { id: 2, sector: "القدرات البشرية", name: "تعليم المهارات الأساسية لأطفال التوحد", agency: "شركة تبيان للتعليم", signed: false },
+  { id: 2, sector: "القدرات البشرية", name: "تعليم المهارات الأساسية لأطفال التوحد", agency: "شركة تبيان للتعليم", signed: true },
   { id: 3, sector: "القدرات البشرية", name: "تعليم أسماء الله الحسنى للأطفال", agency: "مركزالحسنى", signed: false },
   { id: 4, sector: "القدرات البشرية", name: "تفسير الأطفال", agency: "مركز تفسير للدراسات", signed: false },
   { id: 5, sector: "القدرات البشرية", name: "امتياز لبناء المهارات المهنية للطلاب الجامعيين", agency: "تأهيل الموارد المحدودة", signed: true },
@@ -33,7 +33,7 @@ export const projectsData: Project[] = [
   { id: 11, sector: "ضيوف الرحمن", name: "مركز دمانا للتبرع بالدم في المدينة المنورة", agency: "جمعية دمانا", signed: true },
   { id: 12, sector: "ضيوف الرحمن", name: "رحلة النخب العلمية", agency: "جمعية منافع الحجاج والمعتمرين والزوار", signed: true },
   { id: 13, sector: "ضيوف الرحمن", name: "حلقات حفظ السنة النبوية بالمدينة المنورة", agency: "وكالة الحرمين", signed: false },
-  { id: 14, sector: "ضيوف الرحمن", name: "مقطورات صحية متنقلة في الحرمين والمنافذ البرية", agency: "هيئة الهلال الأحمر السعودي - جمعية بادر", signed: false },
+  { id: 14, sector: "ضيوف الرحمن", name: "مقطورات صحية متنقلة في الحرمين والمنافذ البرية", agency: "هيئة الهلال الأحمر السعودي - جمعية بادر", signed: true },
   { id: 15, sector: "ضيوف الرحمن", name: "حج البدل", agency: "جمعية الدعوة والإرشاد بالعزيزية والعوالي", signed: false },
   
   // السجناء وأسرهم - Prisoners and Families
@@ -58,16 +58,16 @@ export const projectsData: Project[] = [
   { id: 30, sector: "المساجد", name: "تعليم الصم جامع شبرا", agency: "جمعية شفيع", signed: false },
   { id: 31, sector: "المساجد", name: "الدار النسائية بشبرا", agency: "جمعية مكنون", signed: false },
   { id: 32, sector: "المساجد", name: "تحفيظ جامع الجرادية", agency: "جمعية مكنون", signed: false },
-  { id: 33, sector: "المساجد", name: "تحفيظ جامع الخالدية", agency: "جمعية مكنون", signed: false },
+  { id: 33, sector: "المساجد", name: "تحفيظ جامع الخالدية", agency: "جمعية مكنون", signed: true },
   { id: 34, sector: "المساجد", name: "تحفيظ جامع الحاير", agency: "المركز الخيري", signed: false },
-  { id: 35, sector: "المساجد", name: "تحفيظ جامع بيش", agency: "جمعية بيش", signed: false },
+  { id: 35, sector: "المساجد", name: "تحفيظ جامع بيش", agency: "جمعية بيش", signed: true },
   { id: 36, sector: "المساجد", name: "الدار النسائية بيش", agency: "جمعية بيش", signed: false },
   { id: 37, sector: "المساجد", name: "تحفيظ جامع الحريق", agency: "جمعية الحريق", signed: false },
   { id: 38, sector: "المساجد", name: "الدار النسائية بالحريق", agency: "جمعية الحريق", signed: false },
   { id: 39, sector: "المساجد", name: "تحفيظ جامع حفر الباطن", agency: "جمعية برهان", signed: false },
   { id: 40, sector: "المساجد", name: "تحفيظ جامع البكيرية", agency: "جمعية البكيرية", signed: false },
   { id: 41, sector: "المساجد", name: "تحفيظ جامع الحوطة", agency: "جمعية الحوطة", signed: false },
-  { id: 42, sector: "المساجد", name: "دار ميمونة بنت الحارث", agency: "المركز الخيري", signed: false },
+  { id: 42, sector: "المساجد", name: "دار ميمونة بنت الحارث", agency: "المركز الخيري", signed: true },
   { id: 43, sector: "المساجد", name: "برامج جامع شبرا - علمي", agency: "جمعية علمية", signed: false },
   { id: 44, sector: "المساجد", name: "برامج جامع بيش - علمي", agency: "جمعية الدعوة ببيش", signed: false },
   { id: 45, sector: "المساجد", name: "برامج جامع الحريق - علمي", agency: "جمعية الدعوة بالحريق", signed: false },
@@ -77,12 +77,12 @@ export const projectsData: Project[] = [
   { id: 49, sector: "المساجد", name: "برامج مسجد الشفا - جالية", agency: "جمعية الدعوة بالشفا", signed: false },
   { id: 50, sector: "المساجد", name: "برامج جامع الحوطة", agency: "جمعية الدعوة بالحوطة", signed: false },
   { id: 51, sector: "المساجد", name: "تشغيل المساجد", agency: "جوامع ومساجد الشيخ عبد الله الراجحي رحمه الله", signed: true },
-  { id: 52, sector: "المساجد", name: "إكرام الموتى", agency: "جامع الحريق", signed: false },
+  { id: 52, sector: "المساجد", name: "إكرام الموتى", agency: "جامع الحريق", signed: true },
   { id: 53, sector: "المساجد", name: "إكرام الموتى", agency: "جامع بيش", signed: true },
   
   // المحتاجون - Those in Need
   { id: 54, sector: "المحتاجون", name: "توزيع التمور", agency: "مزرعة الراجحية - جمعية التمور", signed: true },
-  { id: 55, sector: "المحتاجون", name: "الأضاحي", agency: "جمعية إكرام عابري السبيل", signed: false },
+  { id: 55, sector: "المحتاجون", name: "الأضاحي", agency: "جمعية إكرام عابري السبيل", signed: true },
   { id: 56, sector: "المحتاجون", name: "تفطير الصائمين", agency: "جوامع ومساجد الشيخ عبد الله الراجحي رحمه الله", signed: true },
   { id: 57, sector: "المحتاجون", name: "المشاريع المقيدة للمحتاجون", agency: "وقف العلماء - جمعية البر بشرورة", signed: false },
   { id: 58, sector: "المحتاجون", name: "مركز أمراض الدم الوراثية", agency: "وزارة الصحة", signed: false },
