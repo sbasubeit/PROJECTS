@@ -92,7 +92,7 @@ export const projectsData: Project[] = [
 
 // Sector summary data
 export const sectorSummaryData: SectorSummary[] = [
-  { sector: "القدرات البشرية", totalProjects: 9, signedProjects: 1, completionPercentage: 11 },
+  { sector: "القدرات البشرية", totalProjects: 10, signedProjects: 1, completionPercentage: 11 },
   { sector: "ضيوف الرحمن", totalProjects: 6, signedProjects: 2, completionPercentage: 33 },
   { sector: "السجناء وأسرهم", totalProjects: 9, signedProjects: 1, completionPercentage: 11 },
   { sector: "البحث والابتكار", totalProjects: 4, signedProjects: 1, completionPercentage: 25 },
