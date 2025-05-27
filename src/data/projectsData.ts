@@ -63,7 +63,7 @@ export const projectsData: Project[] = [
   { id: 35, sector: "المساجد", name: "تحفيظ جامع الخالدية", agency: "جمعية مكنون", signed: true },
   { id: 36, sector: "المساجد", name: "تحفيظ جامع الحاير", agency: "المركز الخيري", signed: false },
   { id: 37, sector: "المساجد", name: "تحفيظ جامع بيش", agency: "جمعية بيش", signed: true },
-  { id: 38, sector: "المساجد", name: "الدار النسائية بيش", agency: "جمعية بيش", signed: false },
+  { id: 38, sector: "المساجد", name: "الدار النسائية بيش", agency: "جمعية بيش", signed: true },
   { id: 39, sector: "المساجد", name: "تحفيظ جامع الحريق", agency: "جمعية الحريق", signed: false },
   { id: 40, sector: "المساجد", name: "الدار النسائية بالحريق", agency: "جمعية الحريق", signed: false },
   { id: 41, sector: "المساجد", name: "تحفيظ جامع حفر الباطن", agency: "جمعية برهان", signed: false },
