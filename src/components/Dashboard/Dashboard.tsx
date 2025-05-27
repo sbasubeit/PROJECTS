@@ -81,21 +81,21 @@ export function Dashboard() {
       <div className="grid gap-4 md:grid-cols-3">
         <StatCard
           title="إجمالي المشاريع"
-          value={totalStats.totalProjects}
+          value={sortedProjects.length}
           icon={<FileBarChart2 className="h-6 w-6 text-gray-600" />}
         />
         <StatCard
           title="المشاريع الموقعة"
-          value={totalStats.signedProjects}
+          value={sortedProjects.filter(p => p.signed).length}
           icon={<ClipboardCheck className="h-6 w-6 text-green-600" />}
           textClass="text-green-600"
         />
         <StatCard
           title="نسبة الإنجاز"
-          value={`${totalStats.completionPercentage}%`}
+          value={`${sortedProjects.length > 0 ? Math.round((sortedProjects.filter(p => p.signed).length / sortedProjects.length) * 100) : 0}%`}
           subtitle={
             <div className="mt-2 w-full">
-              <ProgressBar value={totalStats.completionPercentage} />
+              <ProgressBar value={sortedProjects.length > 0 ? Math.round((sortedProjects.filter(p => p.signed).length / sortedProjects.length) * 100) : 0} />
             </div>
           }
           icon={<BarChart3 className="h-6 w-6 text-blue-600" />}
@@ -105,10 +105,10 @@ export function Dashboard() {
 
       <div className="grid gap-6 md:grid-cols-2">
         <div className="rounded-xl border bg-white p-6 shadow-sm">
-          <SectorChart data={sectorSummaryData} />
+          <SectorChart data={filteredSectorSummaryData} />
         </div>
         <div className="rounded-xl border bg-white p-6 shadow-sm">
-          <SigningStatusChart data={sectorSummaryData} />
+          <SigningStatusChart data={filteredSectorSummaryData} />
         </div>
       </div>
 
