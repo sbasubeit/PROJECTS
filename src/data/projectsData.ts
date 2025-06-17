@@ -56,10 +56,10 @@ export const projectsData: Project[] = [
   { id: 30, sector: "البحث والابتكار", name: "منصة شطر للابتكار الاجتماعي", agency: "مجلس الجمعيات الأهلية", signed: true },
   
   // المساجد - Mosques
-  { id: 31, sector: "المساجد", name: "تحفيظ جامع شبرا", agency: "جمعية مكنون", signed: false },
+  { id: 31, sector: "المساجد", name: "تحفيظ جامع شبرا", agency: "جمعية مكنون", signed: true },
   { id: 32, sector: "المساجد", name: "تعليم الصم جامع شبرا", agency: "جمعية شفيع", signed: false },
-  { id: 33, sector: "المساجد", name: "الدار النسائية بشبرا", agency: "جمعية مكنون", signed: false },
-  { id: 34, sector: "المساجد", name: "تحفيظ جامع الجرادية", agency: "جمعية مكنون", signed: false },
+  { id: 33, sector: "المساجد", name: "الدار النسائية بشبرا", agency: "جمعية مكنون", signed: true },
+  { id: 34, sector: "المساجد", name: "تحفيظ جامع الجرادية", agency: "جمعية مكنون", signed: true },
   { id: 35, sector: "المساجد", name: "تحفيظ جامع الخالدية", agency: "جمعية مكنون", signed: true },
   { id: 36, sector: "المساجد", name: "تحفيظ جامع الحاير", agency: "المركز الخيري", signed: false },
   { id: 37, sector: "المساجد", name: "تحفيظ جامع بيش", agency: "جمعية بيش", signed: true },
