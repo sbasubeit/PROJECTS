@@ -27,6 +27,8 @@ export const projectsData: Project[] = [
   { id: 8, sector: "القدرات البشرية", name: "وحدة الموارد البشرية المشتركة في الجمعيات الشبابية", agency: "المجلس التخصصي للجمعيات الشبابية", signed: false },
   { id: 9, sector: "القدرات البشرية", name: "تأهيل أخصائي أندية الفتيات", agency: "اللجنة التنسيقية للجمعيات النسائية - مركز مساق", signed: true },
   { id: 10, sector: "القدرات البشرية", name: "الأكاديمية الوطنية للقطاع غير الربحي", agency: " مؤسسة نمو الأهلية ", signed: true },
+  { id: 10, sector: "القدرات البشرية", name: "تأهيل طلاب المنح على المهارات الرقمية", agency: " جمعية السراج", signed: false },
+  { id: 10, sector: "القدرات البشرية", name: "كلية الدراسات الإسلامية باللغة الإسبانية", agency: " مؤسسة المعارف العالمية التعليمية", signed: false },
   
   
   // ضيوف الرحمن - Guests of Rahman
@@ -69,9 +71,9 @@ export const projectsData: Project[] = [
   { id: 37, sector: "المساجد", name: "تحفيظ جامع بيش", agency: "جمعية بيش", signed: true },
   { id: 38, sector: "المساجد", name: "الدار النسائية بيش", agency: "جمعية بيش", signed: true },
   { id: 39, sector: "المساجد", name: "تحفيظ جامع الحريق", agency: "جمعية الحريق", signed: true },
-  { id: 40, sector: "المساجد", name: "الدار النسائية بالحريق", agency: "جمعية الحريق", signed: false },
+  { id: 40, sector: "المساجد", name: "الدار النسائية بالحريق", agency: "جمعية الحريق", signed: true },
   { id: 41, sector: "المساجد", name: "تحفيظ جامع حفر الباطن", agency: "جمعية برهان", signed: true },
-  { id: 42, sector: "المساجد", name: "تحفيظ جامع البكيرية", agency: "جمعية البكيرية", signed: false },
+  { id: 42, sector: "المساجد", name: "تحفيظ جامع البكيرية", agency: "جمعية البكيرية", signed: true },
   { id: 43, sector: "المساجد", name: "تحفيظ جامع الحوطة", agency: "جمعية الحوطة", signed: false },
   { id: 44, sector: "المساجد", name: "دار ميمونة بنت الحارث", agency: "المركز الخيري", signed: true },
   { id: 45, sector: "المساجد", name: "برامج جامع شبرا - علمي", agency: "جمعية علمية", signed: false },
